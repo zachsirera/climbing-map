@@ -4,7 +4,7 @@
 import csv
 import requests
 import json
-import plotly
+import plotly.plotly
 import pandas 
 
 # import states.json
@@ -54,6 +54,8 @@ def json_call():
 			}
 
 			states_list.append(data)
+
+	print(states_list)
 
 
 if __name__ == "__main__":
