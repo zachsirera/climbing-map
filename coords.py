@@ -4,8 +4,15 @@
 import csv
 import requests
 import json
+import plotly
+import pandas 
 
-def main():
+# import states.json
+
+states_list = []
+
+
+def api_call():
 	with open("coords.csv", "r") as csvfile:
 		reader = csv.reader(csvfile, delimiter=',')
 
@@ -34,9 +41,23 @@ def main():
 
 			print(len(routes))
 
+def json_call():
+	with open("states.json") as f:
+		data = json.load(f)
+
+		states = data['states']
+
+		for state in states:
+			data = {
+				"name": state['state'],
+				"routes": state['routes']
+			}
+
+			states_list.append(data)
+
 
 if __name__ == "__main__":
-	main()
+	json_call()
 
 
 
