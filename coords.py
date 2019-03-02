@@ -35,31 +35,54 @@ def api_call():
 			# Ensure that request was successful
 			if response.status_code != 200:
 				print('error')
+				break
 
 			data = response.json()
 			routes = data['routes']
 
 			print(len(routes))
 
-def json_call():
+def generate_colors():
 	with open("states.json") as f:
 		data = json.load(f)
 
+		# Initialize route counter
+		max_routes = 0
+
 		states = data['states']
 
+		# Find the largest number of routes in the states object
 		for state in states:
-			data = {
-				"name": state['state'],
-				"routes": state['routes']
-			}
+			routes = int(state['routes'])
+			
+			if routes > max_routes:
+				max_routes = routes
+			
+		# Generate rgb triples for each state
+		for state in states:
+			routes = int(state['routes'])
 
-			states_list.append(data)
+			# colors are chosen based on a monochromatic scale for the webpage theme:
 
-	print(states_list)
+			# 		     r.   b.   g. 
+			# darkest =  24,  5,   0
+			# lightest = 255, 235, 229
+
+			r = 255 - (max_routes - routes) * (255 - 24)
+			b = 235 - (max_routes - routes) * (235 - 5)
+			g = 229 - (max_routes - routes) * (229 - 0)
+
+			state_rgb = (r, g, b)
+
+			# Convert to hex
+			state_hex = '#%02x%02x%02x' % state_rgb 
+
+			print(state_hex)
+
 
 
 if __name__ == "__main__":
-	json_call()
+	generate_colors()
 
 
 

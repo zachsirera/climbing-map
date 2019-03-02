@@ -3,7 +3,7 @@
 		[
 			{
 				"state": "Alabama", 
-				"routes": "1,290", 
+				"routes": "1290", 
 				"url": "",
 				"hot_spots": 
 					[
@@ -26,7 +26,7 @@
 			},
 			{
 				"state": "Alaska", 
-				"routes": "1,737", 
+				"routes": "1737", 
 				"url": "",
 				"hot_spots": 
 					[
@@ -49,7 +49,7 @@
 			},
 			{
 				"state": "Alaska", 
-				"routes": "1,737", 
+				"routes": "1737", 
 				"url": "",
 				"hot_spots": 
 					[
@@ -72,7 +72,7 @@
 			},
 			{
 				"state": "Arizona", 
-				"routes": "8,886", 
+				"routes": "8886", 
 				"url": "",
 				"hot_spots": 
 					[
@@ -98,14 +98,14 @@
 						},
 						{
 							"name": "Mount Lemmon (Santa Catalina Mountains)", 
-							"routes": "2,421",
+							"routes": "2421",
 							"url": ""
 						}
 					]
 			},
 			{
 				"state": "Arkansas", 
-				"routes": "1,711", 
+				"routes": "1711", 
 				"url": "",
 				"hot_spots": 
 					[
@@ -123,13 +123,13 @@
 			},
 			{
 				"state": "California", 
-				"routes": "28,992", 
+				"routes": "28992", 
 				"url": "",
 				"hot_spots": 
 					[
 						{
 							"name": "Joshua Tree National Park", 
-							"routes": "5,936",
+							"routes": "5936",
 							"url": ""
 						},
 						{
@@ -144,17 +144,17 @@
 						},
 						{
 							"name": "Sierra Eastside", 
-							"routes": "4,892",
+							"routes": "4892",
 							"url": ""
 						},
 						{
 							"name": "Lake Tahoe", 
-							"routes": "2,470",
+							"routes": "2470",
 							"url": ""
 						},
 						{
 							"name": "Yosemite National Park", 
-							"routes": "1,828",
+							"routes": "1828",
 							"url": ""
 						},
 						{
@@ -181,13 +181,13 @@
 			},
 			{
 				"state": "Colorado", 
-				"routes": "25,367", 
+				"routes": "25367", 
 				"url": "",
 				"hot_spots": 
 					[
 						{
 							"name": "Boulder Canyon", 
-							"routes": "1,671",
+							"routes": "1671",
 							"url": ""
 						},
 						{
@@ -197,12 +197,12 @@
 						},
 						{
 							"name": "Eldorado Canyon SP", 
-							"routes": "1,173",
+							"routes": "1173",
 							"url": ""
 						},
 						{
 							"name": "Shelf Road", 
-							"routes": "1,025",
+							"routes": "1025",
 							"url": ""
 						},
 						{
@@ -222,17 +222,17 @@
 						},
 						{
 							"name": "Flatirons", 
-							"routes": "1,121",
+							"routes": "1121",
 							"url": ""
 						},
 						{
 							"name": "South Platte", 
-							"routes": "2,150",
+							"routes": "2150",
 							"url": ""
 						},
 						{
 							"name": "Grand Junction Area", 
-							"routes": "3,039",
+							"routes": "3039",
 							"url": ""
 						},
 						{
@@ -415,14 +415,14 @@
 			},
 			{
 				"state": "Maryland", 
-				"routes": "1,056", 
+				"routes": "1056", 
 				"url": "",
 				"hot_spots": 
 					[]
 			},
 			{
 				"state": "Massachusetts", 
-				"routes": "3,649", 
+				"routes": "3649", 
 				"url": "",
 				"hot_spots": 
 					[]
@@ -446,7 +446,7 @@
 			},
 			{
 				"state": "Minnesota", 
-				"routes": "1,715", 
+				"routes": "1715", 
 				"url": "",
 				"hot_spots": 
 					[
@@ -466,7 +466,7 @@
 			},
 			{
 				"state": "Montana", 
-				"routes": "1,946", 
+				"routes": "1946", 
 				"url": "",
 				"hot_spots": 
 					[
