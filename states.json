@@ -1,0 +1,972 @@
+{
+	"states": [
+		{
+			"state": "Alabama", 
+			"routes": "1,290", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Sand Rock", 
+						"routes": "173",
+						"url": "",
+					},
+					{
+						"name": "Jamestown", 
+						"routes": "49",
+						"url": "",
+					},
+					{
+						"name": "Palisades Park", 
+						"routes": "58",
+						"url": "",
+					}
+				]
+		},
+		{
+			"state": "Alaska", 
+			"routes": "1,737", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Anchorage & South Central Ice Climbing", 
+						"routes": "221",
+						"url": "",
+					},
+					{
+						"name": "Denali National Park", 
+						"routes": "71",
+						"url": "",
+					},
+					{
+						"name": "Seward Highway", 
+						"routes": "349",
+						"url": "",
+					}
+				]
+		},
+		{
+			"state": "Alaska", 
+			"routes": "1,737", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Anchorage & South Central Ice Climbing", 
+						"routes": "221",
+						"url": "",
+					},
+					{
+						"name": "Denali National Park", 
+						"routes": "71",
+						"url": "",
+					},
+					{
+						"name": "Seward Highway", 
+						"routes": "349",
+						"url": "",
+					}
+				]
+		},
+		{
+			"state": "Arizona", 
+			"routes": "8,886", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Cochise Stronghold", 
+						"routes": "329",
+						"url": "",
+					},
+					{
+						"name": "Sedona Area", 
+						"routes": "398",
+						"url": "",
+					},
+					{
+						"name": "Paradise Forks", 
+						"routes": "147",
+						"url": "",
+					},
+					{
+						"name": "Winslow Wall", 
+						"routes": "92",
+						"url": "",
+					},
+					{
+						"name": "Mount Lemmon (Santa Catalina Mountains)", 
+						"routes": "2,421",
+						"url": "",
+					}
+				]
+		},
+		{
+			"state": "Arkansas", 
+			"routes": "1,711", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Sam's Throne & Surroundings", 
+						"routes": "315",
+						"url": "",
+					},
+					{
+						"name": "Horseshoe Canyon Ranch", 
+						"routes": "561",
+						"url": "",
+					}
+				]
+		},
+		{
+			"state": "California", 
+			"routes": "28,992", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Joshua Tree National Park", 
+						"routes": "5,936",
+						"url": "",
+					},
+					{
+						"name": "Tahquitz & Suicide Rocks", 
+						"routes": "556",
+						"url": "",
+					},
+					{
+						"name": "High Sierra", 
+						"routes": "328",
+						"url": "",
+					},
+					{
+						"name": "Sierra Eastside", 
+						"routes": "4,892",
+						"url": "",
+					},
+					{
+						"name": "Lake Tahoe", 
+						"routes": "2,470",
+						"url": "",
+					},
+					{
+						"name": "Yosemite National Park", 
+						"routes": "1,828",
+						"url": "",
+					},
+					{
+						"name": "The Needles / Kern River", 
+						"routes": "233",
+						"url": "",
+					},
+					{
+						"name": "Owens River Gorge", 
+						"routes": "673",
+						"url": "",
+					},
+					{
+						"name": "Southern Sierra", 
+						"routes": "715",
+						"url": "",
+					},
+					{
+						"name": "Lover's Leap", 
+						"routes": "180",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Colorado", 
+			"routes": "25,367", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Boulder Canyon", 
+						"routes": "1,671",
+						"url": "",
+					},
+					{
+						"name": "Lumpy Ridge", 
+						"routes": "401",
+						"url": "",
+					},
+					{
+						"name": "Eldorado Canyon SP", 
+						"routes": "1,173",
+						"url": "",
+					},
+					{
+						"name": "Shelf Road", 
+						"routes": "1,025",
+						"url": "",
+					},
+					{
+						"name": "Rifle Mountain Park", 
+						"routes": "417",
+						"url": "",
+					},
+					{
+						"name": "RMNP - Rock", 
+						"routes": "447",
+						"url": "",
+					},
+					{
+						"name": "Alpine Rock", 
+						"routes": "893",
+						"url": "",
+					},
+					{
+						"name": "Flatirons", 
+						"routes": "1,121",
+						"url": "",
+					},
+					{
+						"name": "South Platte", 
+						"routes": "2,150",
+						"url": "",
+					},
+					{
+						"name": "Grand Junction Area", 
+						"routes": "3,039",
+						"url": "",
+					},
+					{
+						"name": "Gunnison", 
+						"routes": "627",
+						"url": "",
+					},
+					{
+						"name": "CO Ice & Mixed", 
+						"routes": "992",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Connecticut", 
+			"routes": "1726", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Central Valley", 
+						"routes": "386",
+						"url": "",
+					},
+					{
+						"name": "CT Bouldering", 
+						"routes": "960",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Delaware", 
+			"routes": "16", 
+			"url": "",
+			"hot_spots": 
+				[]
+		},
+		{
+			"state": "Florida", 
+			"routes": "15", 
+			"url": "",
+			"hot_spots": 
+				[]
+		},
+		{
+			"state": "Georgia", 
+			"routes": "825", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Lost Wall", 
+						"routes": "49",
+						"url": "",
+					},
+					{
+						"name": "Mount Yonah", 
+						"routes": "132",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Hawaii", 
+			"routes": "250", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Mokule'ia Wall", 
+						"routes": "61",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Idaho", 
+			"routes": "3171", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "City of Rocks", 
+						"routes": "517",
+						"url": "",
+					},
+					{
+						"name": "Castle Rocks", 
+						"routes": "270",
+						"url": "",
+					},
+					{
+						"name": "Massacre Rocks", 
+						"routes": "350",
+						"url": "",
+					},
+					{
+						"name": "Sawtooth Range", 
+						"routes": "33",
+						"url": "",
+					},
+					{
+						"name": "The Fins", 
+						"routes": "178",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Illinois", 
+			"routes": "1258", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Jackson Falls", 
+						"routes": "502",
+						"url": "",
+					},
+					{
+						"name": "Giant City State Park", 
+						"routes": "101",
+						"url": "",
+					},
+					{
+						"name": "The Holy Boulders", 
+						"routes": "175",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Indiana", 
+			"routes": "72", 
+			"url": "",
+			"hot_spots": 
+				[]
+		},
+		{
+			"state": "Iowa", 
+			"routes": "234", 
+			"url": "",
+			"hot_spots": 
+				[]
+		},
+		{
+			"state": "Kansas", 
+			"routes": "166", 
+			"url": "",
+			"hot_spots": 
+				[]
+		},
+		{
+			"state": "Kentucky", 
+			"routes": "2049", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Red River Gorge", 
+						"routes": "1977",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Maine", 
+			"routes": "865", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Acadia National Park", 
+						"routes": "242",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Maryland", 
+			"routes": "1,056", 
+			"url": "",
+			"hot_spots": 
+				[]
+		},
+		{
+			"state": "Massachusetts", 
+			"routes": "3,649", 
+			"url": "",
+			"hot_spots": 
+				[]
+		},
+
+
+
+
+{
+			"state": "Michigan", 
+			"routes": "379", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Munising", 
+						"routes": "44",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Minnesota", 
+			"routes": "1,715", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Barn Bluff (Red Wing)", 
+						"routes": "150",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Missouri", 
+			"routes": "862", 
+			"url": "",
+			"hot_spots": 
+				[]
+		},
+		{
+			"state": "Montana", 
+			"routes": "1,946", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Gallatin Canyon", 
+						"routes": "294",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Nevada", 
+			"routes": "3794", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Red Rock", 
+						"routes": "2461",
+						"url": "",
+					},
+					{
+						"name": "Mount Charleston", 
+						"routes": "294",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "New Hampshire", 
+			"routes": "4872", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Rumney", 
+						"routes": "1046",
+						"url": "",
+					},
+					{
+						"name": "Cathedral Ledge", 
+						"routes": "197",
+						"url": "",
+					},
+					{
+						"name": "Whitehorse Ledge", 
+						"routes": "112",
+						"url": "",
+					},
+					{
+						"name": "Pawtuckaway", 
+						"routes": "804",
+						"url": "",
+					},
+					{
+						"name": "NH Ice and Mixed", 
+						"routes": "309",
+						"url": "",
+					},
+					{
+						"name": "Cannon Cliff", 
+						"routes": "80",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "New Jersey", 
+			"routes": "522", 
+			"url": "",
+			"hot_spots": 
+				[]
+		},
+		{
+			"state": "New Mexico", 
+			"routes": "4779", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Sandia Mountains", 
+						"routes": "282",
+						"url": "",
+					},
+					{
+						"name": "El Rito", 
+						"routes": "180",
+						"url": "",
+					},
+					{
+						"name": "Organ Mountains", 
+						"routes": "374",
+						"url": "",
+					},
+					{
+						"name": "Enchanted Tower", 
+						"routes": "129",
+						"url": "",
+					},
+					{
+						"name": "Taos Area", 
+						"routes": "543",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "New York", 
+			"routes": "3882", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "The Gunks", 
+						"routes": "1047",
+						"url": "",
+					},
+					{
+						"name": "Adirondacks", 
+						"routes": "675",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "North Carolina", 
+			"routes": "2614", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Linville Gorge", 
+						"routes": "284",
+						"url": "",
+					},
+					{
+						"name": "Looking Glass Rock", 
+						"routes": "135",
+						"url": "",
+					},
+					{
+						"name": "Stone Mountain", 
+						"routes": "61",
+						"url": "",
+					},
+					{
+						"name": "Laurel Knob", 
+						"routes": "83",
+						"url": "",
+					},
+					{
+						"name": "Rumbling Bald", 
+						"routes": "368",
+						"url": "",
+					},
+					{
+						"name": "Moore's Wall", 
+						"routes": "250",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "North Dakota", 
+			"routes": "37", 
+			"url": "",
+			"hot_spots": 
+				[]
+		},
+		{
+			"state": "Ohio", 
+			"routes": "900", 
+			"url": "",
+			"hot_spots": 
+				[]
+		},
+		{
+			"state": "Oklahoma", 
+			"routes": "945", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Quartz Mountains", 
+						"routes": "123",
+						"url": "",
+					},
+					{
+						"name": "Wichita Mountains Wildlife Refuge", 
+						"routes": "488",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Oregon", 
+			"routes": "2599", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Smith Rock", 
+						"routes": "1006",
+						"url": "",
+					},
+					{
+						"name": "Mt. Hood", 
+						"routes": "17",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Pennsylvania", 
+			"routes": "2293", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Birdsboro Quarry", 
+						"routes": "160",
+						"url": "",
+					},
+					{
+						"name": "Safe Harbor", 
+						"routes": "279",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Rhode Island", 
+			"routes": "1070", 
+			"url": "",
+			"hot_spots": 
+				[]
+		},
+		{
+			"state": "South Carolina", 
+			"routes": "91", 
+			"url": "",
+			"hot_spots": 
+				[]
+		},
+		{
+			"state": "South Dakota", 
+			"routes": "2861", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Spearfish Canyon", 
+						"routes": "825",
+						"url": "",
+					},
+					{
+						"name": "Custer State Park", 
+						"routes": "545",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Tennessee", 
+			"routes": "2029", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "The Tennessee Wall", 
+						"routes": "208",
+						"url": "",
+					},
+					{
+						"name": "Foster Falls", 
+						"routes": "133",
+						"url": "",
+					},
+					{
+						"name": "Sunset Park", 
+						"routes": "117",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Texas", 
+			"routes": "2655", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Hueco Tanks", 
+						"routes": "541",
+						"url": "",
+					},
+					{
+						"name": "Enchanted Rock", 
+						"routes": "335",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Utah", 
+			"routes": "12545", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Moab Area", 
+						"routes": "2596",
+						"url": "",
+					},
+					{
+						"name": "Indian Creek", 
+						"routes": "1225",
+						"url": "",
+					},
+					{
+						"name": "Castle Valley", 
+						"routes": "58",
+						"url": "",
+					},
+					{
+						"name": "Fisher Towers", 
+						"routes": "50",
+						"url": "",
+					},
+					{
+						"name": "Zion National Park", 
+						"routes": "299",
+						"url": "",
+					},
+					{
+						"name": "Wasatch Range", 
+						"routes": "4469",
+						"url": "",
+					},
+					{
+						"name": "Maple Canyon", 
+						"routes": "670",
+						"url": "",
+					},
+					{
+						"name": "San Rafael Swell", 
+						"routes": "469",
+						"url": "",
+					},
+					{
+						"name": "Joe's Valley", 
+						"routes": "551",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Vermont", 
+			"routes": "952", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Lake Willoughby", 
+						"routes": "22",
+						"url": "",
+					},
+					{
+						"name": "Vermont Ice Climbing", 
+						"routes": "54",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Virginia", 
+			"routes": "3525", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Grayson Highlands State Park", 
+						"routes": "1096",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Washington", 
+			"routes": "5690", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Exit 32 / Little Si", 
+						"routes": "111",
+						"url": "",
+					},
+					{
+						"name": "Index", 
+						"routes": "522",
+						"url": "",
+					},
+					{
+						"name": "Vantage (Frenchman Coulee)", 
+						"routes": "425",
+						"url": "",
+					},
+					{
+						"name": "Tieton River", 
+						"routes": "215",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "West Virginia", 
+			"routes": "2538", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "The New River Gorge", 
+						"routes": "1413",
+						"url": "",
+					},
+					{
+						"name": "Seneca Rocks", 
+						"routes": "290",
+						"url": "",
+					},
+					{
+						"name": "Summersville and Gauley River", 
+						"routes": "210",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Wisconsin", 
+			"routes": "3489", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Devil's Lake", 
+						"routes": "2142",
+						"url": "",
+					},
+					{
+						"name": "Governor Dodge State Park", 
+						"routes": "348",
+						"url": "",
+					},
+					{
+						"name": "Devil's Lake Bouldering", 
+						"routes": "1089",
+						"url": "",
+					},
+				]
+		},
+		{
+			"state": "Wyoming", 
+			"routes": "4774", 
+			"url": "",
+			"hot_spots": 
+				[
+					{
+						"name": "Devil's Tower", 
+						"routes": "133",
+						"url": "",
+					},
+					{
+						"name": "Vedauwoo", 
+						"routes": "997",
+						"url": "",
+					},
+					{
+						"name": "Grand Teton National Park", 
+						"routes": "221",
+						"url": "",
+					},
+					{
+						"name": "Wind River Range", 
+						"routes": "179",
+						"url": "",
+					},
+					{
+						"name": "Sinks Canyon", 
+						"routes": "589",
+						"url": "",
+					},
+					{
+						"name": "Rock Springs Buttress", 
+						"routes": "65",
+						"url": "",
+					},
+					{
+						"name": "Wild Iris", 
+						"routes": "283",
+						"url": "",
+					},
+				]
+		},
