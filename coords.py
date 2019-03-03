@@ -7,6 +7,9 @@ import json
 import plotly.plotly
 import pandas 
 
+from math import floor
+from statistics import median
+
 # import states.json
 
 states_list = []
@@ -46,17 +49,20 @@ def generate_colors():
 	with open("states.json") as f:
 		data = json.load(f)
 
-		# Initialize route counter
-		max_routes = 0
+		# Initialize route list for max and median later
+		route_list = []
 
 		states = data['states']
 
 		# Find the largest number of routes in the states object
 		for state in states:
 			routes = int(state['routes'])
+
+			route_list.append(routes)
 			
-			if routes > max_routes:
-				max_routes = routes
+		max_routes = max(route_list)
+		avg_routes = max_routes / 2
+
 			
 		# Generate rgb triples for each state
 		for state in states:
@@ -65,19 +71,26 @@ def generate_colors():
 			# colors are chosen based on a monochromatic scale for the webpage theme:
 
 			# 		     r.   b.   g. 
-			# darkest =  24,  5,   0
+			# darkest  = 24,  5,   0
+			# median   = 255, 54,  0
 			# lightest = 255, 235, 229
 
-			r = 255 - (max_routes - routes) * (255 - 24)
-			b = 235 - (max_routes - routes) * (235 - 5)
-			g = 229 - (max_routes - routes) * (229 - 0)
+			if routes >= avg_routes:
+				r = floor(255 - ((routes - avg_routes) / (max_routes - avg_routes)) * (255 - 24))
+				b = floor(54 - ((routes - avg_routes) / (max_routes - avg_routes)) * (54 - 5))
+				g = floor(0 + ((routes - avg_routes) / (max_routes - avg_routes)) * (229 - 0))
+			else:
+				r = 255 
+				b = floor(235 - (routes / avg_routes) * (235 - 54))
+				g = 0
+
 
 			state_rgb = (r, g, b)
 
 			# Convert to hex
-			state_hex = '#%02x%02x%02x' % state_rgb 
+			# state_hex = '#%02x%02x%02x' % state_rgb 
 
-			print(state_hex)
+			print(state_rgb)
 
 
 
