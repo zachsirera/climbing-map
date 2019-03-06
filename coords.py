@@ -61,29 +61,29 @@ def generate_colors():
 			route_list.append(routes)
 			
 		max_routes = max(route_list)
-		avg_routes = max_routes / 2
 
 			
 		# Generate rgb triples for each state
 		for state in states:
 			routes = int(state['routes'])
+			ratio = routes / max_routes
 
 			# colors are chosen based on a monochromatic scale for the webpage theme:
 
-			# 		     r.   b.   g. 
+			# 		     r.   g.   b. 
 			# darkest  = 24,  5,   0
-			# median   = 255, 54,  0
+			# middle   = 255, 54,  0
 			# lightest = 255, 235, 229
 
-			if routes >= avg_routes:
-				r = floor(255 - ((routes - avg_routes) / (max_routes - avg_routes)) * (255 - 24))
-				b = floor(54 - ((routes - avg_routes) / (max_routes - avg_routes)) * (54 - 5))
-				g = floor(0 + ((routes - avg_routes) / (max_routes - avg_routes)) * (229 - 0))
+			if ratio >= 0.5:
+				r = floor(255 * (1 - (ratio / 0.5)))
+				g = floor(54 - (54 - 5) * (ratio / 0.5))
+				b = 0
 			else:
-				r = 255 
-				b = floor(235 - (routes / avg_routes) * (235 - 54))
-				g = 0
-
+				r = 255
+				g = floor(235 - (235 - 54) * (ratio / 0.5))
+				b = floor(229 - 124.5 * (ratio / 0.5))
+				
 
 			state_rgb = (r, g, b)
 
