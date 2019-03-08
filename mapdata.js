@@ -22,7 +22,7 @@ var simplemaps_usmap_mapdata={
     location_opacity: 0.8,
     location_hover_opacity: 1,
     location_url: "",
-    location_size: 25,
+    location_size: 13,
     location_type: "square",
     location_border_color: "#FFFFFF",
     location_border: 2,
@@ -374,23 +374,114 @@ var simplemaps_usmap_mapdata={
       url: 'https://www.mountainproject.com/area/105708960/wyoming' },
   },
   locations: {
-    // "0": {
-    //   name: "New York",
-    //   lat: 40.71,
-    //   lng: -74,
-    //   description: "default",
-    //   color: "default",
-    //   url: "default",
-    //   type: "default",
-    //   size: "default"
-    // },
-    // "1": {
-    //   name: "Anchorage",
-    //   lat: 61.2180556,
-    //   lng: -149.9002778,
-    //   color: "default",
-    //   type: "circle"
-    // }
+    "0": {
+      name: "Horse Pens 40",
+      lat: 33.929,
+      lng: -86.249,
+      description: "November 2013",
+      color: "default",
+      type: "default",
+      size: "default"
+    },
+    "1": {
+      name: "Sand Rock",
+      lat: 34.18,
+      lng: -85.817,
+      description: "May 2015",
+      color: "default",
+      type: "default",
+      size: "default"
+    },
+    "2": {
+      name: "Reimers Ranch",
+      lat: 30.334,
+      lng: -98.122,
+      description: "October 2014",
+      color: "default",
+      type: "default",
+      size: "default"
+    },
+    "3": {
+      name: "Foster Falls",
+      lat: 35.182,
+      lng: -85.674,
+      description: "November 2017",
+      color: "default",
+      type: "default",
+      size: "default"
+    },
+    "4": {
+      name: "Yosemite National Park",
+      lat: 37.741,
+      lng: -119.604,
+      description: "June 2014",
+      color: "default",
+      type: "default",
+      size: "default"
+    },
+    "5": {
+      name: "Tuolumne Meadows",
+      lat: 37.874,
+      lng: -119.358,
+      description: "November 2018",
+      color: "default",
+      type: "default",
+      size: "default"
+    },
+    "5": {
+      name: "Benton Crags",
+      lat: 37.73,
+      lng: -118.567,
+      description: "November 2018",
+      color: "default",
+      type: "default",
+      size: "default"
+    },
+    "6": {
+      name: "Alabama Hills",
+      lat: 36.596,
+      lng: -118.109,
+      description: "November 2018",
+      color: "default",
+      type: "default",
+      size: "default"
+    },
+    "7": {
+      name: "Mammoth Lakes",
+      lat: 37.647,
+      lng: -118.966,
+      description: "November 2018",
+      color: "default",
+      type: "default",
+      size: "default"
+    },
+    "8": {
+      name: "Paradise Valley",
+      lat: 45.618,
+      lng: -110.567,
+      description: "June 2012",
+      color: "default",
+      type: "default",
+      size: "default"
+    },
+    "9": {
+      name: "Garden of the Gods",
+      lat: 38.879,
+      lng: -104.87,
+      description: "June 2012",
+      color: "default",
+      type: "default",
+      size: "default"
+    },
+    "10": {
+      name: "Grand Teton National Park",
+      lat: 43.741,
+      lng: -110.803,
+      description: "July 2015",
+      color: "default",
+      type: "default",
+      size: "default"
+    },
   },
   labels: {
     NH: {

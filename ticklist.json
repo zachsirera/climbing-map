@@ -1,0 +1,187 @@
+{
+	"states": 
+		[
+			{
+				"Alabama": 
+					[
+						{
+							"destination": "Horse Pens 40",
+							"lat": "33.929",
+							"lng": "-86.249",
+							"month": "November",
+							"year": "2013", 
+							"special": 
+								[
+									{
+										"route": "Satanic Verses",
+										"grade": "V5"
+									},
+									{
+										"route": "Bumboy",
+										"grade": "V3"
+									},		
+								]
+						},
+						{
+							"destination": "Sand Rock",
+							"lat": "34.18",
+							"lng": "-85.817",
+							"month": "May",
+							"year": "2015",
+							"special": 
+								[
+									{
+										"route": "Misty",
+										"grade": "5.10C"
+									}	
+								]
+						},
+					]
+			},
+			{
+				"Texas": 
+					[
+						{
+							"destination": "Reimers Ranch",
+							"lat": "30.334",
+							"lng": "-98.122", 
+							"month": "October",
+							"year": "2014",
+							"special": 
+								[
+									{
+										"route": "Prototype",
+										"grade": "5.10C"
+									},
+									{
+										"route": "Carnival",
+										"grade": "5.10D"
+									}	
+								]
+						},
+					]
+			},
+			{
+				"Tennessee": 
+					[
+						{
+							"destination": "Foster Falls",
+							"lat": "35.182",
+							"lng": "-85.674", 
+							"month": "November",
+							"year": " 2017",
+							"special":
+								[
+									{
+										"route": "Supersaturated",
+										"grade": "5.10D"
+									}
+								]
+						},
+					]
+			},
+			{
+				"California": 
+					[
+						{
+							"destination": "Yosemite National Park",
+							"lat": "37.741",
+							"lng": "-119.604", 
+							"month": "June",
+							"year": "2014",
+							"special": 
+								[]
+						},
+						{
+							"destination": "Tuolumne Meadows",
+							"lat": "37.874",
+							"lng": "-119.358", 
+							"month": "November",
+							"year": "2018",
+							"special":
+								[
+									{
+										"route": "Hermaphrodite Flake",
+										"grade": "5.7"
+									}
+								]
+						},
+						{
+							"destination": "Benton Crags",
+							"lat": "37.73",
+							"lng": "-118.567", 
+							"month": "November",
+							"year": "2018",
+							"special": 
+								[]
+						},
+						{
+							"destination": "Alabama Hills",
+							"lat": "36.596",
+							"lng": "-118.109", 
+							"month": "November",
+							"year": "2018",
+							"special": 
+								[]
+						},
+						{
+							"destination": "Mammoth Lakes",
+							"lat": "37.647",
+							"lng": "-118.966", 
+							"month": "November",
+							"year": "2018",
+							"special": 
+								[]
+						},
+					]
+			},
+			{
+				"Montana": 
+					[
+						{
+							"destination": "Paradise Valley",
+							"lat": "45.618",
+							"lng": "-110.567", 
+							"month": "June",
+							"year": "2012",
+							"special": 
+								[]
+						},
+					]
+			},
+			{
+				"Colorado": 
+					[
+						{
+							"destination": "Garden of the Gods",
+							"lat": "38.879",
+							"lng": "-104.87", 
+							"month": "June",
+							"year": "2012",
+							"special": 
+								[]
+						},
+					]
+			},
+			{
+				"Wyoming":
+					[
+						{
+							"destination": "Grand Teton National Park",
+							"lat": "43.741",
+							"lng": "-110.803",
+							"month": "July",
+							"year": "2015",
+							"special":
+								[	
+									{
+										"route": "Guides Wall",
+										"grade": "5.8"
+									}
+								]
+						}
+					]
+
+			}
+		]
+}

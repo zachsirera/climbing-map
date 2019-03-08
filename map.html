@@ -16,11 +16,14 @@
 		<script src="mapdata.js"></script>
     	<script src="usmap.js"></script>
 
+    	<!-- Tick List js -->
+    	<script src="ticklist.js"></script>
+
 	</head>
 	<body>
 		<div id="container">
 			<div id="header">
-				<p id="header_text"> USA Climbing Heat Map </p>
+				<p id="header_text"> Zach's Climbing Map </p>
 				<div class="align-right">
 					<a href="https://www.github.com/zachsirera/climbing-map">
 						<img src="static/GitHub-Mark-Light-32px.png">
@@ -28,13 +31,142 @@
 				</div>
 			</div>
 			<div id="toolbar">
-				<p id="toolbar_text"> How does your state stack up? </p>
-
+				<p id="toolbar_text"> How does each state stack up? </p>
 			</div>
-			
-			<div id="chart">
-				<div id="map"></div>
+			<div class="row">
+				<div class="col">
+					<div id="chart">
+						<div id="map"></div>
 
+					</div>
+				</div>
+				<div class="col">
+					<div id="ticklist">
+						
+						<!-- Button trigger modal -->
+						<button type="button" id="tickbutton" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+							Add Ticks
+						</button>
+
+						<!-- Ticklist Modal -->
+						<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										...
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										<button type="button" class="btn btn-primary">Save changes</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<h3> Tick List: </h3>
+
+						<ul class="list-group">
+
+							<li type="button" data-toggle="collapse" data-target="#Alabama" aria-expanded="false" aria-controls="collapseExample" class="list-group-item d-flex justify-content-between align-items-center">
+								Alabama
+								<span class="badge badge-primary badge-pill">2</span>
+							</li>
+							<!-- <li>
+								<div class="collapse" id="Alabama">
+									<div class="card card-body">
+										Test
+									</div>
+								</div>
+							</li> -->
+
+							<li type="button" data-toggle="collapse" data-target="#California" aria-expanded="false" aria-controls="collapseExample" class="list-group-item d-flex justify-content-between align-items-center">
+								California
+								<span class="badge badge-primary badge-pill">5</span>
+							</li>
+							<!-- <li>
+								<div class="collapse" id="California">
+									<div class="card card-body">
+										Test
+									</div>
+								</div>
+							</li> -->
+
+							<li type="button" data-toggle="collapse" data-target="#Colorado" aria-expanded="false" aria-controls="collapseExample" class="list-group-item d-flex justify-content-between align-items-center">
+								Colorado
+								<span class="badge badge-primary badge-pill">1</span>
+							</li>
+							<!-- <li>
+								<div class="collapse" id="Colorado">
+									<div class="card card-body">
+										Test
+									</div>
+								</div>
+							</li> -->
+
+							<li type="button" data-toggle="collapse" data-target="#Montana" aria-expanded="false" aria-controls="collapseExample" class="list-group-item d-flex justify-content-between align-items-center">
+								Montana
+								<span class="badge badge-primary badge-pill">1</span>
+							</li>
+							<!-- <li>
+								<div class="collapse" id="Montana">
+									<div class="card card-body">
+										Test
+									</div>
+								</div>
+							</li> -->
+
+							<li type="button" data-toggle="collapse" data-target="#Tennessee" aria-expanded="false" aria-controls="collapseExample" class="list-group-item d-flex justify-content-between align-items-center">
+								Tennessee
+								<span class="badge badge-primary badge-pill">1</span>
+							</li>
+							<!-- <li>
+								<div class="collapse" id="Tennessee">
+									<div class="card card-body">
+										Test
+									</div>
+								</div>
+							</li> -->
+
+							<li type="button" data-toggle="collapse" data-target="#Texas" aria-expanded="false" aria-controls="collapseExample" class="list-group-item d-flex justify-content-between align-items-center">
+								Texas
+								<span class="badge badge-primary badge-pill">1</span>
+							</li>
+							<!-- <li>
+								<div class="collapse" id="Texas">
+									<div class="card card-body">
+										Test
+									</div>
+								</div>
+							</li> -->
+
+							<li type="button" data-toggle="collapse" data-target="#Wyoming" aria-expanded="false" aria-controls="collapseExample" class="list-group-item d-flex justify-content-between align-items-center">
+								Wyoming
+								<span class="badge badge-primary badge-pill">1</span>
+							</li>
+							<!-- <li>
+								<div class="collapse" id="Wyoming">
+									<div class="card card-body">
+										Test
+									</div>
+								</div>
+							</li> -->
+
+						</ul>
+
+
+
+
+
+
+						
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>

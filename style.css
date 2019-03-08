@@ -29,6 +29,18 @@
 	padding-top: 20px;
 }
 
+#ticklist {
+	background-color: #cdcdcd;
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+}
+
+#tickbutton {
+	position: absolute;
+	right: 30px;
+}
+
 .align-right {
 	position: absolute;
     right: 10px;
