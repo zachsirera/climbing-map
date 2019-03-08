@@ -76,26 +76,35 @@ def generate_colors():
 			# lightest = 255, 235, 229
 
 			if ratio >= 0.5:
-				r = floor(255 * (1 - (ratio / 0.5)))
-				g = floor(54 - (54 - 5) * (ratio / 0.5))
+				r = floor(255 - ((255 - 24) / (1 - 0.5)) * (ratio - 0.5))
+				g = floor(54 - ((54 - 5) / (1 - 0.5)) * (ratio - 0.5))
 				b = 0
 			else:
 				r = 255
-				g = floor(235 - (235 - 54) * (ratio / 0.5))
-				b = floor(229 - 124.5 * (ratio / 0.5))
+				g = floor(235 - ((235 - 54) / (1 - 0.5)) * ratio)
+				b = floor(229 - ((229 - 0) / (1 - 0.5)) * ratio)
 				
 
 			state_rgb = (r, g, b)
 
 			# Convert to hex
-			# state_hex = '#%02x%02x%02x' % state_rgb 
+			state_hex = '#%02x%02x%02x' % state_rgb 
 
-			print(state_rgb)
+			print(state['state'], state_hex)
 
-
+def test():
+	with open('mapdata.js', 'r') as file:
+		print("opened")
+		line = file.readline()
+		while line:
+			print(line)
+			line = file.readline()
+		else: 
+			print("no line")
 
 if __name__ == "__main__":
 	generate_colors()
+	# test()
 
 
 
