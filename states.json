@@ -2,9 +2,10 @@
 	"states": 
 		[
 			{
-				"state": "Alabama", 
+				"state": "AL", 
+				"name": "Alabama",
 				"routes": "1290", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105905173/alabama",
 				"hot_spots": 
 					[
 						{
@@ -25,9 +26,10 @@
 					]
 			},
 			{
-				"state": "Alaska", 
+				"state": "AK",  
+				"name": "Alaska",
 				"routes": "1737", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105909311/alaska",
 				"hot_spots": 
 					[
 						{
@@ -48,32 +50,10 @@
 					]
 			},
 			{
-				"state": "Alaska", 
-				"routes": "1737", 
-				"url": "",
-				"hot_spots": 
-					[
-						{
-							"name": "Anchorage & South Central Ice Climbing", 
-							"routes": "221",
-							"url": ""
-						},
-						{
-							"name": "Denali National Park", 
-							"routes": "71",
-							"url": ""
-						},
-						{
-							"name": "Seward Highway", 
-							"routes": "349",
-							"url": ""
-						}
-					]
-			},
-			{
-				"state": "Arizona", 
+				"state": "AZ",  
+				"name": "Arizona",
 				"routes": "8886", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105708962/arizona",
 				"hot_spots": 
 					[
 						{
@@ -104,9 +84,10 @@
 					]
 			},
 			{
-				"state": "Arkansas", 
+				"state": "AR", 
+				"name": "Arkansas",
 				"routes": "1711", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105901027/arkansas",
 				"hot_spots": 
 					[
 						{
@@ -122,9 +103,10 @@
 					]
 			},
 			{
-				"state": "California", 
+				"state": "CA",  
+				"name": "California",
 				"routes": "28992", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105708959/california",
 				"hot_spots": 
 					[
 						{
@@ -180,9 +162,10 @@
 					]
 			},
 			{
-				"state": "Colorado", 
+				"state": "CO",  
+				"name": "Colorado",
 				"routes": "25367", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105708956/colorado",
 				"hot_spots": 
 					[
 						{
@@ -248,9 +231,10 @@
 					]
 			},
 			{
-				"state": "Connecticut", 
+				"state": "CT",  
+				"name": "Connecticut",
 				"routes": "1726", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105806977/connecticut",
 				"hot_spots": 
 					[
 						{
@@ -266,23 +250,26 @@
 					]
 			},
 			{
-				"state": "Delaware", 
+				"state": "DE",  
+				"name": "Delaware",
 				"routes": "16", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/106861605/delaware",
 				"hot_spots": 
 					[]
 			},
 			{
-				"state": "Florida", 
+				"state": "FL",  
+				"name": "Florida",
 				"routes": "15", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/111721391/florida",
 				"hot_spots": 
 					[]
 			},
 			{
-				"state": "Georgia", 
+				"state": "GA",  
+				"name": "Georgia",
 				"routes": "825", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105897947/georgia",
 				"hot_spots": 
 					[
 						{
@@ -298,9 +285,10 @@
 					]
 			},
 			{
-				"state": "Hawaii", 
+				"state": "HI",  
+				"name": "Hawaii",
 				"routes": "250", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/106316122/hawaii",
 				"hot_spots": 
 					[
 						{
@@ -311,9 +299,10 @@
 					]
 			},
 			{
-				"state": "Idaho", 
+				"state": "ID",  
+				"name": "Idaho",
 				"routes": "3171", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105708958/idaho",
 				"hot_spots": 
 					[
 						{
@@ -344,9 +333,10 @@
 					]
 			},
 			{
-				"state": "Illinois", 
+				"state": "IL",  
+				"name": "Illinois",
 				"routes": "1258", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105911816/illinois",
 				"hot_spots": 
 					[
 						{
@@ -367,30 +357,34 @@
 					]
 			},
 			{
-				"state": "Indiana", 
+				"state": "IN",  
+				"name": "Indiana",
 				"routes": "72", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/112389571/indiana",
 				"hot_spots": 
 					[]
 			},
 			{
-				"state": "Iowa", 
+				"state": "IA",  
+				"name": "Iowa",
 				"routes": "234", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/106092653/iowa",
 				"hot_spots": 
 					[]
 			},
 			{
-				"state": "Kansas", 
+				"state": "KS",  
+				"name": "Kansas",
 				"routes": "166", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/107235316/kansas",
 				"hot_spots": 
 					[]
 			},
 			{
-				"state": "Kentucky", 
+				"state": "KY",  
+				"name": "Kentucky",
 				"routes": "2049", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105868674/kentucky",
 				"hot_spots": 
 					[
 						{
@@ -401,9 +395,18 @@
 					]
 			},
 			{
-				"state": "Maine", 
+				"state": "LA", 
+				"name": "Louisiana", 
+				"routes": "0", 
+				"url": "#",
+				"hot_spots": 
+					[]
+			},
+			{
+				"state": "ME", 
+				"name": "Maine", 
 				"routes": "865", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105948977/maine",
 				"hot_spots": 
 					[
 						{
@@ -414,16 +417,18 @@
 					]
 			},
 			{
-				"state": "Maryland", 
+				"state": "MD",  
+				"name": "Maryland",
 				"routes": "1056", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/106029417/maryland",
 				"hot_spots": 
 					[]
 			},
 			{
-				"state": "Massachusetts", 
+				"state": "MA",  
+				"name": "Massachusetts",
 				"routes": "3649", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105908062/massachusetts",
 				"hot_spots": 
 					[]
 			},
@@ -432,9 +437,10 @@
 
 
 	{
-				"state": "Michigan", 
+				"state": "MI",  
+				"name": "Michigan",
 				"routes": "379", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/106113246/michigan",
 				"hot_spots": 
 					[
 						{
@@ -445,9 +451,10 @@
 					]
 			},
 			{
-				"state": "Minnesota", 
+				"state": "MN",  
+				"name": "Minnesota",
 				"routes": "1715", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105812481/minnesota",
 				"hot_spots": 
 					[
 						{
@@ -458,16 +465,26 @@
 					]
 			},
 			{
-				"state": "Missouri", 
+				"state": "MO",  
+				"name": "Missouri",
 				"routes": "862", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105899020/missouri",
 				"hot_spots": 
 					[]
 			},
 			{
-				"state": "Montana", 
+				"state": "MS", 
+				"name": "Mississippi", 
+				"routes": "0", 
+				"url": "#",
+				"hot_spots": 
+					[]
+			},
+			{
+				"state": "MT",  
+				"name": "Montana",
 				"routes": "1946", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105907492/montana",
 				"hot_spots": 
 					[
 						{
@@ -478,9 +495,18 @@
 					]
 			},
 			{
-				"state": "Nevada", 
+				"state": "NE", 
+				"name": "Nebraska", 
+				"routes": "0", 
+				"url": "#",
+				"hot_spots": 
+					[]
+			},
+			{
+				"state": "NV",  
+				"name": "Nevada",
 				"routes": "3794", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105708961/nevada",
 				"hot_spots": 
 					[
 						{
@@ -496,9 +522,10 @@
 					]
 			},
 			{
-				"state": "New Hampshire", 
+				"state": "NH",  
+				"name": "New Hampshire",
 				"routes": "4872", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105872225/new-hampshire",
 				"hot_spots": 
 					[
 						{
@@ -534,16 +561,18 @@
 					]
 			},
 			{
-				"state": "New Jersey", 
+				"state": "NJ",  
+				"name": "New Jersey",
 				"routes": "522", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/106374428/new-jersey",
 				"hot_spots": 
 					[]
 			},
 			{
-				"state": "New Mexico", 
+				"state": "NM",  
+				"name": "New Mexico",
 				"routes": "4779", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105708964/new-mexico",
 				"hot_spots": 
 					[
 						{
@@ -574,9 +603,10 @@
 					]
 			},
 			{
-				"state": "New York", 
+				"state": "NY",  
+				"name": "New York",
 				"routes": "3882", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105800424/new-york",
 				"hot_spots": 
 					[
 						{
@@ -592,9 +622,10 @@
 					]
 			},
 			{
-				"state": "North Carolina", 
+				"state": "NC",  
+				"name": "North Carolina",
 				"routes": "2614", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105873282/north-carolina",
 				"hot_spots": 
 					[
 						{
@@ -630,23 +661,26 @@
 					]
 			},
 			{
-				"state": "North Dakota", 
+				"state": "ND",  
+				"name": "North Dakota",
 				"routes": "37", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/106598130/north-dakota",
 				"hot_spots": 
 					[]
 			},
 			{
-				"state": "Ohio", 
+				"state": "OH", 
+				"name": "Ohio", 
 				"routes": "900", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105994953/ohio",
 				"hot_spots": 
 					[]
 			},
 			{
-				"state": "Oklahoma", 
+				"state": "OK", 
+				"name": "Oklahoma", 
 				"routes": "945", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105854466/oklahoma",
 				"hot_spots": 
 					[
 						{
@@ -662,9 +696,10 @@
 					]
 			},
 			{
-				"state": "Oregon", 
+				"state": "OR",  
+				"name": "Oregon",
 				"routes": "2599", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105708965/oregon",
 				"hot_spots": 
 					[
 						{
@@ -680,9 +715,10 @@
 					]
 			},
 			{
-				"state": "Pennsylvania", 
+				"state": "PA",  
+				"name": "Pennsylvania",
 				"routes": "2293", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105913279/pennsylvania",
 				"hot_spots": 
 					[
 						{
@@ -698,23 +734,26 @@
 					]
 			},
 			{
-				"state": "Rhode Island", 
+				"state": "RI",  
+				"name": "Rhode Island",
 				"routes": "1070", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/106842810/rhode-island",
 				"hot_spots": 
 					[]
 			},
 			{
-				"state": "South Carolina", 
+				"state": "SC", 
+				"name": "South Carolina", 
 				"routes": "91", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/107638915/south-carolina",
 				"hot_spots": 
 					[]
 			},
 			{
-				"state": "South Dakota", 
+				"state": "SD", 
+				"name": "South Dakota", 
 				"routes": "2861", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105708963/south-dakota",
 				"hot_spots": 
 					[
 						{
@@ -730,9 +769,10 @@
 					]
 			},
 			{
-				"state": "Tennessee", 
+				"state": "TN",  
+				"name": "Tennessee",
 				"routes": "2029", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105887760/tennessee",
 				"hot_spots": 
 					[
 						{
@@ -753,9 +793,10 @@
 					]
 			},
 			{
-				"state": "Texas", 
+				"state": "TX",  
+				"name": "Texas",
 				"routes": "2655", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105835804/texas",
 				"hot_spots": 
 					[
 						{
@@ -771,9 +812,10 @@
 					]
 			},
 			{
-				"state": "Utah", 
+				"state": "UT",  
+				"name": "Utah",
 				"routes": "12545", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105708957/utah",
 				"hot_spots": 
 					[
 						{
@@ -824,9 +866,10 @@
 					]
 			},
 			{
-				"state": "Vermont", 
+				"state": "VT",  
+				"name": "Vermont",
 				"routes": "952", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105891603/vermont",
 				"hot_spots": 
 					[
 						{
@@ -842,9 +885,10 @@
 					]
 			},
 			{
-				"state": "Virginia", 
+				"state": "VA", 
+				"name": "Virginia", 
 				"routes": "3525", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105852400/virginia",
 				"hot_spots": 
 					[
 						{
@@ -855,9 +899,10 @@
 					]
 			},
 			{
-				"state": "Washington", 
+				"state": "WA",  
+				"name": "Washington",
 				"routes": "5690", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105708966/washington",
 				"hot_spots": 
 					[
 						{
@@ -883,9 +928,10 @@
 					]
 			},
 			{
-				"state": "West Virginia", 
+				"state": "WV",  
+				"name": "West Virginia",
 				"routes": "2538", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105855459/west-virginia",
 				"hot_spots": 
 					[
 						{
@@ -906,9 +952,10 @@
 					]
 			},
 			{
-				"state": "Wisconsin", 
+				"state": "WI",  
+				"name": "Wisconsin",
 				"routes": "3489", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105708968/wisconsin",
 				"hot_spots": 
 					[
 						{
@@ -929,9 +976,10 @@
 					]
 			},
 			{
-				"state": "Wyoming", 
+				"state": "WY",  
+				"name": "Wyoming",
 				"routes": "4774", 
-				"url": "",
+				"url": "https://www.mountainproject.com/area/105708960/wyoming",
 				"hot_spots": 
 					[
 						{

@@ -1,0 +1,350 @@
+AL: { 
+		name: 'Alabama', 
+		description: '1290 routes', 
+		color: '#ffdad0', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105905173/alabama' 
+	}, 
+AK: { 
+		name: 'Alaska', 
+		description: '1737 routes', 
+		color: '#ffd5c9', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105909311/alaska' 
+	}, 
+AZ: { 
+		name: 'Arizona', 
+		description: '8886 routes', 
+		color: '#ff7c58', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105708962/arizona' 
+	}, 
+AR: { 
+		name: 'Arkansas', 
+		description: '1711 routes', 
+		color: '#ffd5c9', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105901027/arkansas' 
+	}, 
+CA: { 
+		name: 'California', 
+		description: '28992 routes', 
+		color: '#180500', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105708959/california' 
+	}, 
+CO: { 
+		name: 'Colorado', 
+		description: '25367 routes', 
+		color: '#511100', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105708956/colorado' 
+	}, 
+CT: { 
+		name: 'Connecticut', 
+		description: '1726 routes', 
+		color: '#ffd5c9', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105806977/connecticut' 
+	}, 
+DE: { 
+		name: 'Delaware', 
+		description: '16 routes', 
+		color: '#ffeae4', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/106861605/delaware' 
+	}, 
+FL: { 
+		name: 'Florida', 
+		description: '15 routes', 
+		color: '#ffeae4', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/111721391/florida' 
+	}, 
+GA: { 
+		name: 'Georgia', 
+		description: '825 routes', 
+		color: '#ffe0d7', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105897947/georgia' 
+	}, 
+HI: { 
+		name: 'Hawaii', 
+		description: '250 routes', 
+		color: '#ffe7e1', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/106316122/hawaii' 
+	}, 
+ID: { 
+		name: 'Idaho', 
+		description: '3171 routes', 
+		color: '#ffc3b2', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105708958/idaho' 
+	}, 
+IL: { 
+		name: 'Illinois', 
+		description: '1258 routes', 
+		color: '#ffdbd1', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105911816/illinois' 
+	}, 
+IN: { 
+		name: 'Indiana', 
+		description: '72 routes', 
+		color: '#ffeae3', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/112389571/indiana' 
+	}, 
+IA: { 
+		name: 'Iowa', 
+		description: '234 routes', 
+		color: '#ffe8e1', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/106092653/iowa' 
+	}, 
+KS: { 
+		name: 'Kansas', 
+		description: '166 routes', 
+		color: '#ffe8e2', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/107235316/kansas' 
+	}, 
+KY: { 
+		name: 'Kentucky', 
+		description: '2049 routes', 
+		color: '#ffd1c4', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105868674/kentucky' 
+	}, 
+LA: { 
+		name: 'Louisiana', 
+		description: 'Climbing Wasteland', 
+		color: 'default', 
+		hover_color: 'default', 
+		url: '#' 
+	}, 
+ME: { 
+		name: 'Maine', 
+		description: '865 routes', 
+		color: '#ffe0d7', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105948977/maine' 
+	}, 
+MD: { 
+		name: 'Maryland', 
+		description: '1056 routes', 
+		color: '#ffddd4', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/106029417/maryland' 
+	}, 
+MA: { 
+		name: 'Massachusetts', 
+		description: '3649 routes', 
+		color: '#ffbdab', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105908062/massachusetts' 
+	}, 
+MI: { 
+		name: 'Michigan', 
+		description: '379 routes', 
+		color: '#ffe6df', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/106113246/michigan' 
+	}, 
+MN: { 
+		name: 'Minnesota', 
+		description: '1715 routes', 
+		color: '#ffd5c9', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105812481/minnesota' 
+	}, 
+MO: { 
+		name: 'Missouri', 
+		description: '862 routes', 
+		color: '#ffe0d7', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105899020/missouri' 
+	}, 
+MS: { 
+		name: 'Mississippi', 
+		description: 'Climbing Wasteland', 
+		color: 'default', 
+		hover_color: 'default', 
+		url: '#' 
+	}, 
+MT: { 
+		name: 'Montana', 
+		description: '1946 routes', 
+		color: '#ffd2c6', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105907492/montana' 
+	}, 
+NE: { 
+		name: 'Nebraska', 
+		description: 'Climbing Wasteland', 
+		color: 'default', 
+		hover_color: 'default', 
+		url: '#' 
+	}, 
+NV: { 
+		name: 'Nevada', 
+		description: '3794 routes', 
+		color: '#ffbba9', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105708961/nevada' 
+	}, 
+NH: { 
+		name: 'New Hampshire', 
+		description: '4872 routes', 
+		color: '#ffae98', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105872225/new-hampshire' 
+	}, 
+NJ: { 
+		name: 'New Jersey', 
+		description: '522 routes', 
+		color: '#ffe4dc', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/106374428/new-jersey' 
+	}, 
+NM: { 
+		name: 'New Mexico', 
+		description: '4779 routes', 
+		color: '#ffaf99', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105708964/new-mexico' 
+	}, 
+NY: { 
+		name: 'New York', 
+		description: '3882 routes', 
+		color: '#ffbaa7', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105800424/new-york' 
+	}, 
+NC: { 
+		name: 'North Carolina', 
+		description: '2614 routes', 
+		color: '#ffcabb', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105873282/north-carolina' 
+	}, 
+ND: { 
+		name: 'North Dakota', 
+		description: '37 routes', 
+		color: '#ffeae4', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/106598130/north-dakota' 
+	}, 
+OH: { 
+		name: 'Ohio', 
+		description: '900 routes', 
+		color: '#ffdfd6', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105994953/ohio' 
+	}, 
+OK: { 
+		name: 'Oklahoma', 
+		description: '945 routes', 
+		color: '#ffdfd6', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105854466/oklahoma' 
+	}, 
+OR: { 
+		name: 'Oregon', 
+		description: '2599 routes', 
+		color: '#ffcabb', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105708965/oregon' 
+	}, 
+PA: { 
+		name: 'Pennsylvania', 
+		description: '2293 routes', 
+		color: '#ffcec0', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105913279/pennsylvania' 
+	}, 
+RI: { 
+		name: 'Rhode Island', 
+		description: '1070 routes', 
+		color: '#ffddd4', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/106842810/rhode-island' 
+	}, 
+SC: { 
+		name: 'South Carolina', 
+		description: '91 routes', 
+		color: '#ffe9e3', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/107638915/south-carolina' 
+	}, 
+SD: { 
+		name: 'South Dakota', 
+		description: '2861 routes', 
+		color: '#ffc7b7', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105708963/south-dakota' 
+	}, 
+TN: { 
+		name: 'Tennessee', 
+		description: '2029 routes', 
+		color: '#ffd1c4', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105887760/tennessee' 
+	}, 
+TX: { 
+		name: 'Texas', 
+		description: '2655 routes', 
+		color: '#ffc9bb', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105835804/texas' 
+	}, 
+UT: { 
+		name: 'Utah', 
+		description: '12545 routes', 
+		color: '#ff4e1e', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105708957/utah' 
+	}, 
+VT: { 
+		name: 'Vermont', 
+		description: '952 routes', 
+		color: '#ffdfd5', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105891603/vermont' 
+	}, 
+VA: { 
+		name: 'Virginia', 
+		description: '3525 routes', 
+		color: '#ffbead', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105852400/virginia' 
+	}, 
+WA: { 
+		name: 'Washington', 
+		description: '5690 routes', 
+		color: '#ffa38b', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105708966/washington' 
+	}, 
+WV: { 
+		name: 'West Virginia', 
+		description: '2538 routes', 
+		color: '#ffcbbc', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105855459/west-virginia' 
+	}, 
+WI: { 
+		name: 'Wisconsin', 
+		description: '3489 routes', 
+		color: '#ffbfad', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105708968/wisconsin' 
+	}, 
+WY: { 
+		name: 'Wyoming', 
+		description: '4774 routes', 
+		color: '#ffaf99', 
+		hover_color: 'default', 
+		url: 'https://www.mountainproject.com/area/105708960/wyoming' 
+	}, 

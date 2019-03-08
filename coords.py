@@ -62,35 +62,67 @@ def generate_colors():
 			
 		max_routes = max(route_list)
 
+		with open("hold.txt", "w") as h:	
 			
-		# Generate rgb triples for each state
-		for state in states:
-			routes = int(state['routes'])
-			ratio = routes / max_routes
+			for state in states:
+				routes = int(state['routes'])
 
-			# colors are chosen based on a monochromatic scale for the webpage theme:
+				if routes == 0:
+					state_hex = "default"
+				else:
+					# Generate rgb triples for each state
+					ratio = routes / max_routes
 
-			# 		     r.   g.   b. 
-			# darkest  = 24,  5,   0
-			# middle   = 255, 54,  0
-			# lightest = 255, 235, 229
+					# colors are chosen based on a monochromatic scale for the webpage theme:
 
-			if ratio >= 0.5:
-				r = floor(255 - ((255 - 24) / (1 - 0.5)) * (ratio - 0.5))
-				g = floor(54 - ((54 - 5) / (1 - 0.5)) * (ratio - 0.5))
-				b = 0
-			else:
-				r = 255
-				g = floor(235 - ((235 - 54) / (1 - 0.5)) * ratio)
-				b = floor(229 - ((229 - 0) / (1 - 0.5)) * ratio)
+					# 		     r.   g.   b. 
+					# darkest  = 24,  5,   0
+					# middle   = 255, 54,  0
+					# lightest = 255, 235, 229
+
+					if ratio >= 0.5:
+						r = floor(255 - ((255 - 24) / (1 - 0.5)) * (ratio - 0.5))
+						g = floor(54 - ((54 - 5) / (1 - 0.5)) * (ratio - 0.5))
+						b = 0
+					else:
+						r = 255
+						g = floor(235 - ((235 - 54) / (1 - 0.5)) * ratio)
+						b = floor(229 - ((229 - 0) / (1 - 0.5)) * ratio)
+						
+
+					state_rgb = (r, g, b)
+
+					# Convert to hex
+					state_hex = '#%02x%02x%02x' % state_rgb 
+
+				# Need to configure print to this format:
+				# AL: {
+				# 	name: "Alabama",
+				# 	description: "Routes: 1290",
+				# 	color: "#ffdad0",
+				# 	hover_color: "default",
+				# 	url: "https://www.mountainproject.com/area/105905173/alabama"
+				# },
+
+				h.write(f"{state['state']}: ")
+				h.write("{ \n")
+				h.write(f"\t\tname: '{state['name']}'")
+				h.write(", \n")
+				if routes == 0:
+					h.write("\t\tdescription: 'Climbing Wasteland'")
+					h.write(", \n")
+				else:
+					h.write(f"\t\tdescription: '{routes} routes'")
+					h.write(", \n")		
+				h.write(f"\t\tcolor: '{state_hex}'")
+				h.write(", \n")
+				h.write(f"\t\thover_color: 'default', \n")		
+				h.write(f"\t\turl: '{state['url']}' \n")
+				h.write("\t}, \n")
+			
+
 				
-
-			state_rgb = (r, g, b)
-
-			# Convert to hex
-			state_hex = '#%02x%02x%02x' % state_rgb 
-
-			print(state['state'], state_hex)
+			
 
 def test():
 	with open('mapdata.js', 'r') as file:
