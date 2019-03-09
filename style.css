@@ -14,7 +14,7 @@
 #toolbar {
 	width: 100%;
 	height: 50px;
-	background-color: #FF714B;
+	background-color: #ff724c;
 	padding: 10px;
 }
 
@@ -31,7 +31,7 @@
 
 #ticklist {
 	background-color: #cdcdcd;
-	height: 100%;
+	height: calc(100vh - 150px);
 	width: 100%;
 	padding: 10px;
 }
@@ -41,10 +41,33 @@
 	right: 30px;
 }
 
+#row {
+	height: 100%;
+}
+
+#small_header {
+	color: white;
+}
+
+#info_button {
+	right: 10px;
+	top: 106px;
+	background-color: #FF9A7F;
+	border-color: #FFEBE5;
+}
+
+#github_button {
+	right: 10px;
+    top: 34px;
+}
+
 .align-right {
 	position: absolute;
-    right: 10px;
-    top: 34px;
+}
+
+.square {
+	height: 20px;
+	width: 20px;
 }
 
 * {
