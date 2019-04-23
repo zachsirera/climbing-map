@@ -181,7 +181,33 @@
 								]
 						}
 					]
-
+			},
+			{
+				"Arkansas":
+					[
+						{
+							"destination": "Horseshoe Canyon Ranch",
+							"lat": "36.012",
+							"lng": "-93.292",
+							"month": "April",
+							"year": "2019",
+							"special":
+								[	
+									{
+										"route": "Plumb Bob",
+										"grade": "5.11A"
+									},
+									{
+										"route": "Learning to Fly",
+										"grade": "5.10C"
+									},
+									{
+										"route": "Dirka Dirka",
+										"grade": "5.11C"
+									},
+								]
+						}
+					]
 			}
 		]
 }

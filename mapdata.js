@@ -482,6 +482,16 @@ var simplemaps_usmap_mapdata={
       type: "default",
       size: "default"
     },
+    "11": {
+      name: "Horseshoe Canyon Ranch",
+      lat: 36.012,
+      lng: -93.292,
+      description: "April 2019",
+      color: "default",
+      type: "default",
+      size: "default"
+
+    }
   },
   labels: {
     NH: {
